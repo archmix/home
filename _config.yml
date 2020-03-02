@@ -27,3 +27,9 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
 # Build settings
+
+collections:
+  blueprint:
+    output: true
+  puzzly:
+    output: true
