@@ -8,7 +8,7 @@
   title: Puzzly
   description: Puzzly is a governance portal that helps teams build distributed systems with confidence knowing about resources they have in production through a navigational structure.
   label: Get Started
-  href: #
+  href: /puzzly/getting_started/1.quick_start/
 
 - id: metanoid
   title: Metanoid
@@ -21,4 +21,3 @@
   description: Legolas is an application scaffolding for creating reactive micro services based on Eclipse Vert.x, Apache Kafka, JCache and the most popular databases.
   label: Coming soon...
   href: #
- 
