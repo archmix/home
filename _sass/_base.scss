@@ -160,32 +160,3 @@ footer {
     }
   }
 }
-
-.bg-primary {
-  background: $theme-primary;
-  background: -webkit-linear-gradient($theme-primary, $theme-secondary);
-  background: linear-gradient($theme-primary, $theme-secondary);
-}
-
-.bg-dark {
-  color: $white;
-
-  background: linear-gradient(90.44deg, #404040 30.04%, #121212 67.81%);
-  background-color: rgba(0, 0, 0, 0);
-  background-position-x: 0%;
-  background-position-y: 0%;
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-image: linear-gradient(90.44deg, rgb(64, 64, 64) 30.04%, rgb(18, 18, 18) 67.81%);
-  background-size: auto;
-  background-origin: padding-box;
-  background-clip: border-box;
-}
-
-.bg-header {
-  color: $white;
-
-  background: $head-primary;
-  background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
-  background: linear-gradient(to left, $head-primary, $head-secondary);
-}
