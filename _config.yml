@@ -26,8 +26,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+assets_location: //raw.githubusercontent.com/archmix/community/master/assets
+
 collections:
-  blueprint:
-    output: true
-  puzzly:
-    output: true
+  sections:
+    output: false

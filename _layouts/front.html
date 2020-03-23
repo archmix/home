@@ -2,14 +2,20 @@
 <html lang="en">
 
 {% include head.html %}
+{% assign sections = site.sections | sort: "order" %}
 
 <body id="page-top">
   {% include scripts.html %}
 
   {% include nav.html %}
   {% include header.html %}
-  {% include meet.html %}
-  {% include solutions.html %}
+
+{% for section in sections %}
+  <section id="{{section.id}}" class="p-5 {{section.class}}">
+    {{section.content}}
+  </section>
+{% endfor %}
+
   {% include contact.html %}
   {% include footer.html %}
 </body>

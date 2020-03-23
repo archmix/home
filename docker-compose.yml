@@ -1,4 +1,4 @@
-jekyll-bootstrap:
+site:
     image: jekyll/jekyll
     command: jekyll serve --watch --incremental
     ports:
