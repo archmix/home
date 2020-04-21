@@ -19,7 +19,7 @@ social:
   - title: github
     url: http://github.com/archmix
   - title: slack
-    url : https://join.slack.com/t/archmix/shared_invite/enQtODgxNTQ0Mjc4ODcwLWNiN2EwNDdmOTQzOTcyY2U2MjhmZWIzZDk5NGIwNDc2YTViNDY0NDc1ODVlNTg0NDU4YjFhZGE5ODY1NDNlOTM
+    url : https://archmix.org/slack
 
 # Build settings
 markdown: kramdown
